@@ -1,0 +1,8 @@
+[
+  {
+    "directory": "/home/linuxxx0id/Projects/Literally/builddir",
+    "command": "c++ -ILiterally.p -I. -I.. -I../include -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O0 -g -D_REENTRANT -MD -MQ Literally.p/src_main.cpp.o -MF Literally.p/src_main.cpp.o.d -o Literally.p/src_main.cpp.o -c ../src/main.cpp",
+    "file": "../src/main.cpp",
+    "output": "Literally.p/src_main.cpp.o"
+  }
+]
