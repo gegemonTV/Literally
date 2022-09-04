@@ -1,27 +1,27 @@
 #include "Engine/engine.hpp"
 #include "Engine/Scene/scene.hpp"
+#include "SDL.h"
 #include "SDL_events.h"
+#include "SDL_render.h"
 #include "SDL_video.h"
 
-Engine::Engine(Scene *scene) {
-    PostScene(scene);
-}
 Engine::~Engine() {}
 
-int Engine::Run(int argc, char *argv[]) {
+int Engine::Run(int argc, char *argv[], Scene *firstScene) {
     int status = Init(argc, argv);
+    PostScene(firstScene);
     status += Loop();
     status += Clear();
     return status;
 }
 
 int Engine::Init(int argc, char *argv[]) {
-    if (SDL_Init(SDL_INIT_VIDEO) < 0) {
+    if (SDL_Init(SDL_INIT_EVERYTHING) < 0) {
         SDL_LogError(SDL_LOG_CATEGORY_APPLICATION, "Couldn't initialize SDL: %s", SDL_GetError());
         return 3;
     }
 
-    if (SDL_CreateWindowAndRenderer(320, 240, SDL_WINDOW_RESIZABLE, &window, &renderer)) {
+    if (SDL_CreateWindowAndRenderer(640, 480, SDL_WINDOW_RESIZABLE, &window, &renderer)) {
         SDL_LogError(SDL_LOG_CATEGORY_APPLICATION, "Couldn't create window and renderer: %s", SDL_GetError());
         return 3;
     }
@@ -65,8 +65,11 @@ void Engine::EventReader() {
 }
 
 void Engine::Draw() {
-    SDL_SetRenderDrawColor(renderer, 0x00, 0x00, 0x00, 0x00);
     SDL_RenderClear(renderer);
     currentScene->Draw();
     SDL_RenderPresent(renderer);
+}
+
+SDL_Renderer *Engine::GetRenderer() {
+    return renderer;
 }

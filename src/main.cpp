@@ -1,4 +1,5 @@
 #include <iostream>
+#include "Engine/Object/image.hpp"
 #include "Engine/Scene/scene.hpp"
 #include "Engine/engine.hpp"
 #include "SDL_log.h"
@@ -6,18 +7,14 @@
 using namespace std;
 
 class FirstScene : public Scene {
-    int counter = 0;
+
     void OnCreate() override {
-        std::cout<<"OnCreate" << std::endl;
+        std::cout<< "OnCreate" << std::endl;
+        AddObject(0, new ImageObject(e->GetRenderer(), 0,0));
     }
 
     void OnUpdate() override {
         std::cout << "OnUpdate" << std::endl;
-        counter++;
-        if (counter%10 == 0) { 
-            SDL_Log("1"); 
-            e->PostScene(new FirstScene());
-        }
     }
 
     void OnDestroy() override {
@@ -34,6 +31,6 @@ int main(int argc, char *argv[]) {
 
     Scene *sc = new FirstScene();
     
-    Engine e = Engine(sc);
-    return e.Run(argc, argv);
+    Engine e = Engine();
+    return e.Run(argc, argv, sc);
 }

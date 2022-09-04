@@ -10,16 +10,17 @@ class Engine {
     SDL_Surface *surface;
     SDL_Event event;
 
-    Scene *currentScene;
+    Scene *currentScene = NULL;
 
     bool isPlaying = true;
 
     public:
-        Engine(Scene *scene);
         ~Engine();
 
-        int Run(int argc, char* argv[]);
+        int Run(int argc, char* argv[], Scene *firstScene);
         void PostScene(Scene *scene);
+
+        SDL_Renderer *GetRenderer();
     
     private:
         int Init(int argc, char *argv[]);

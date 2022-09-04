@@ -8,8 +8,10 @@ class Engine;
 class Scene {
     protected:
         Engine *e;
+        std::vector<Layer> layers = std::vector<Layer>();
 
     public:
+        Scene();
         void Draw();
         void Update();
         void AddObject(int layer, GameObject *obj);
@@ -27,5 +29,5 @@ class Scene {
         void SetEngine(Engine *engine);
     
     private:
-        std::vector<Layer> layers = std::vector<Layer>();
+        
 };

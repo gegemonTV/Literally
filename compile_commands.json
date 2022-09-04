@@ -1,7 +1,133 @@
 [
   {
     "directory": "/home/linuxxx0id/Projects/Literally/builddir",
-    "command": "c++ -ILiterally.p -I. -I.. -I../include -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O0 -g -D_REENTRANT -MD -MQ Literally.p/src_main.cpp.o -MF Literally.p/src_main.cpp.o.d -o Literally.p/src_main.cpp.o -c ../src/main.cpp",
+    "command": "cc -Isubprojects/SDL2_image-2.0.5/libsdl2image.so.p -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -I/usr/include/libpng16 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -fPIC -D_REENTRANT -DLOAD_BMP -DLOAD_PNG -DLOAD_JPG -DLOAD_TIF -MD -MQ subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG.c.o -MF subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG.c.o.d -o subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG.c.o -c ../subprojects/SDL2_image-2.0.5/IMG.c",
+    "file": "../subprojects/SDL2_image-2.0.5/IMG.c",
+    "output": "subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG.c.o"
+  },
+  {
+    "directory": "/home/linuxxx0id/Projects/Literally/builddir",
+    "command": "cc -Isubprojects/SDL2_image-2.0.5/libsdl2image.so.p -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -I/usr/include/libpng16 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -fPIC -D_REENTRANT -DLOAD_BMP -DLOAD_PNG -DLOAD_JPG -DLOAD_TIF -MD -MQ subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_bmp.c.o -MF subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_bmp.c.o.d -o subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_bmp.c.o -c ../subprojects/SDL2_image-2.0.5/IMG_bmp.c",
+    "file": "../subprojects/SDL2_image-2.0.5/IMG_bmp.c",
+    "output": "subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_bmp.c.o"
+  },
+  {
+    "directory": "/home/linuxxx0id/Projects/Literally/builddir",
+    "command": "cc -Isubprojects/SDL2_image-2.0.5/libsdl2image.so.p -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -I/usr/include/libpng16 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -fPIC -D_REENTRANT -DLOAD_BMP -DLOAD_PNG -DLOAD_JPG -DLOAD_TIF -MD -MQ subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_gif.c.o -MF subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_gif.c.o.d -o subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_gif.c.o -c ../subprojects/SDL2_image-2.0.5/IMG_gif.c",
+    "file": "../subprojects/SDL2_image-2.0.5/IMG_gif.c",
+    "output": "subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_gif.c.o"
+  },
+  {
+    "directory": "/home/linuxxx0id/Projects/Literally/builddir",
+    "command": "cc -Isubprojects/SDL2_image-2.0.5/libsdl2image.so.p -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -I/usr/include/libpng16 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -fPIC -D_REENTRANT -DLOAD_BMP -DLOAD_PNG -DLOAD_JPG -DLOAD_TIF -MD -MQ subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_jpg.c.o -MF subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_jpg.c.o.d -o subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_jpg.c.o -c ../subprojects/SDL2_image-2.0.5/IMG_jpg.c",
+    "file": "../subprojects/SDL2_image-2.0.5/IMG_jpg.c",
+    "output": "subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_jpg.c.o"
+  },
+  {
+    "directory": "/home/linuxxx0id/Projects/Literally/builddir",
+    "command": "cc -Isubprojects/SDL2_image-2.0.5/libsdl2image.so.p -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -I/usr/include/libpng16 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -fPIC -D_REENTRANT -DLOAD_BMP -DLOAD_PNG -DLOAD_JPG -DLOAD_TIF -MD -MQ subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_lbm.c.o -MF subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_lbm.c.o.d -o subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_lbm.c.o -c ../subprojects/SDL2_image-2.0.5/IMG_lbm.c",
+    "file": "../subprojects/SDL2_image-2.0.5/IMG_lbm.c",
+    "output": "subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_lbm.c.o"
+  },
+  {
+    "directory": "/home/linuxxx0id/Projects/Literally/builddir",
+    "command": "cc -Isubprojects/SDL2_image-2.0.5/libsdl2image.so.p -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -I/usr/include/libpng16 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -fPIC -D_REENTRANT -DLOAD_BMP -DLOAD_PNG -DLOAD_JPG -DLOAD_TIF -MD -MQ subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_pcx.c.o -MF subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_pcx.c.o.d -o subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_pcx.c.o -c ../subprojects/SDL2_image-2.0.5/IMG_pcx.c",
+    "file": "../subprojects/SDL2_image-2.0.5/IMG_pcx.c",
+    "output": "subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_pcx.c.o"
+  },
+  {
+    "directory": "/home/linuxxx0id/Projects/Literally/builddir",
+    "command": "cc -Isubprojects/SDL2_image-2.0.5/libsdl2image.so.p -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -I/usr/include/libpng16 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -fPIC -D_REENTRANT -DLOAD_BMP -DLOAD_PNG -DLOAD_JPG -DLOAD_TIF -MD -MQ subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_png.c.o -MF subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_png.c.o.d -o subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_png.c.o -c ../subprojects/SDL2_image-2.0.5/IMG_png.c",
+    "file": "../subprojects/SDL2_image-2.0.5/IMG_png.c",
+    "output": "subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_png.c.o"
+  },
+  {
+    "directory": "/home/linuxxx0id/Projects/Literally/builddir",
+    "command": "cc -Isubprojects/SDL2_image-2.0.5/libsdl2image.so.p -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -I/usr/include/libpng16 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -fPIC -D_REENTRANT -DLOAD_BMP -DLOAD_PNG -DLOAD_JPG -DLOAD_TIF -MD -MQ subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_pnm.c.o -MF subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_pnm.c.o.d -o subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_pnm.c.o -c ../subprojects/SDL2_image-2.0.5/IMG_pnm.c",
+    "file": "../subprojects/SDL2_image-2.0.5/IMG_pnm.c",
+    "output": "subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_pnm.c.o"
+  },
+  {
+    "directory": "/home/linuxxx0id/Projects/Literally/builddir",
+    "command": "cc -Isubprojects/SDL2_image-2.0.5/libsdl2image.so.p -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -I/usr/include/libpng16 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -fPIC -D_REENTRANT -DLOAD_BMP -DLOAD_PNG -DLOAD_JPG -DLOAD_TIF -MD -MQ subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_svg.c.o -MF subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_svg.c.o.d -o subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_svg.c.o -c ../subprojects/SDL2_image-2.0.5/IMG_svg.c",
+    "file": "../subprojects/SDL2_image-2.0.5/IMG_svg.c",
+    "output": "subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_svg.c.o"
+  },
+  {
+    "directory": "/home/linuxxx0id/Projects/Literally/builddir",
+    "command": "cc -Isubprojects/SDL2_image-2.0.5/libsdl2image.so.p -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -I/usr/include/libpng16 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -fPIC -D_REENTRANT -DLOAD_BMP -DLOAD_PNG -DLOAD_JPG -DLOAD_TIF -MD -MQ subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_tga.c.o -MF subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_tga.c.o.d -o subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_tga.c.o -c ../subprojects/SDL2_image-2.0.5/IMG_tga.c",
+    "file": "../subprojects/SDL2_image-2.0.5/IMG_tga.c",
+    "output": "subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_tga.c.o"
+  },
+  {
+    "directory": "/home/linuxxx0id/Projects/Literally/builddir",
+    "command": "cc -Isubprojects/SDL2_image-2.0.5/libsdl2image.so.p -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -I/usr/include/libpng16 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -fPIC -D_REENTRANT -DLOAD_BMP -DLOAD_PNG -DLOAD_JPG -DLOAD_TIF -MD -MQ subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_tif.c.o -MF subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_tif.c.o.d -o subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_tif.c.o -c ../subprojects/SDL2_image-2.0.5/IMG_tif.c",
+    "file": "../subprojects/SDL2_image-2.0.5/IMG_tif.c",
+    "output": "subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_tif.c.o"
+  },
+  {
+    "directory": "/home/linuxxx0id/Projects/Literally/builddir",
+    "command": "cc -Isubprojects/SDL2_image-2.0.5/libsdl2image.so.p -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -I/usr/include/libpng16 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -fPIC -D_REENTRANT -DLOAD_BMP -DLOAD_PNG -DLOAD_JPG -DLOAD_TIF -MD -MQ subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_webp.c.o -MF subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_webp.c.o.d -o subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_webp.c.o -c ../subprojects/SDL2_image-2.0.5/IMG_webp.c",
+    "file": "../subprojects/SDL2_image-2.0.5/IMG_webp.c",
+    "output": "subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_webp.c.o"
+  },
+  {
+    "directory": "/home/linuxxx0id/Projects/Literally/builddir",
+    "command": "cc -Isubprojects/SDL2_image-2.0.5/libsdl2image.so.p -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -I/usr/include/libpng16 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -fPIC -D_REENTRANT -DLOAD_BMP -DLOAD_PNG -DLOAD_JPG -DLOAD_TIF -MD -MQ subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_WIC.c.o -MF subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_WIC.c.o.d -o subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_WIC.c.o -c ../subprojects/SDL2_image-2.0.5/IMG_WIC.c",
+    "file": "../subprojects/SDL2_image-2.0.5/IMG_WIC.c",
+    "output": "subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_WIC.c.o"
+  },
+  {
+    "directory": "/home/linuxxx0id/Projects/Literally/builddir",
+    "command": "cc -Isubprojects/SDL2_image-2.0.5/libsdl2image.so.p -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -I/usr/include/libpng16 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -fPIC -D_REENTRANT -DLOAD_BMP -DLOAD_PNG -DLOAD_JPG -DLOAD_TIF -MD -MQ subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_xcf.c.o -MF subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_xcf.c.o.d -o subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_xcf.c.o -c ../subprojects/SDL2_image-2.0.5/IMG_xcf.c",
+    "file": "../subprojects/SDL2_image-2.0.5/IMG_xcf.c",
+    "output": "subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_xcf.c.o"
+  },
+  {
+    "directory": "/home/linuxxx0id/Projects/Literally/builddir",
+    "command": "cc -Isubprojects/SDL2_image-2.0.5/libsdl2image.so.p -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -I/usr/include/libpng16 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -fPIC -D_REENTRANT -DLOAD_BMP -DLOAD_PNG -DLOAD_JPG -DLOAD_TIF -MD -MQ subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_xpm.c.o -MF subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_xpm.c.o.d -o subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_xpm.c.o -c ../subprojects/SDL2_image-2.0.5/IMG_xpm.c",
+    "file": "../subprojects/SDL2_image-2.0.5/IMG_xpm.c",
+    "output": "subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_xpm.c.o"
+  },
+  {
+    "directory": "/home/linuxxx0id/Projects/Literally/builddir",
+    "command": "cc -Isubprojects/SDL2_image-2.0.5/libsdl2image.so.p -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -I/usr/include/libpng16 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -fPIC -D_REENTRANT -DLOAD_BMP -DLOAD_PNG -DLOAD_JPG -DLOAD_TIF -MD -MQ subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_xv.c.o -MF subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_xv.c.o.d -o subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_xv.c.o -c ../subprojects/SDL2_image-2.0.5/IMG_xv.c",
+    "file": "../subprojects/SDL2_image-2.0.5/IMG_xv.c",
+    "output": "subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_xv.c.o"
+  },
+  {
+    "directory": "/home/linuxxx0id/Projects/Literally/builddir",
+    "command": "cc -Isubprojects/SDL2_image-2.0.5/libsdl2image.so.p -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -I/usr/include/libpng16 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -fPIC -D_REENTRANT -DLOAD_BMP -DLOAD_PNG -DLOAD_JPG -DLOAD_TIF -MD -MQ subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_xxx.c.o -MF subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_xxx.c.o.d -o subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_xxx.c.o -c ../subprojects/SDL2_image-2.0.5/IMG_xxx.c",
+    "file": "../subprojects/SDL2_image-2.0.5/IMG_xxx.c",
+    "output": "subprojects/SDL2_image-2.0.5/libsdl2image.so.p/IMG_xxx.c.o"
+  },
+  {
+    "directory": "/home/linuxxx0id/Projects/Literally/builddir",
+    "command": "c++ -Isrc/Engine/libMinervaEngine.so.p -Isrc/Engine -I../src/Engine -I../include -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O0 -g -fPIC -D_REENTRANT -MD -MQ src/Engine/libMinervaEngine.so.p/engine.cpp.o -MF src/Engine/libMinervaEngine.so.p/engine.cpp.o.d -o src/Engine/libMinervaEngine.so.p/engine.cpp.o -c ../src/Engine/engine.cpp",
+    "file": "../src/Engine/engine.cpp",
+    "output": "src/Engine/libMinervaEngine.so.p/engine.cpp.o"
+  },
+  {
+    "directory": "/home/linuxxx0id/Projects/Literally/builddir",
+    "command": "c++ -Isrc/Engine/libMinervaEngine.so.p -Isrc/Engine -I../src/Engine -I../include -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O0 -g -fPIC -D_REENTRANT -MD -MQ src/Engine/libMinervaEngine.so.p/Scene_layer.cpp.o -MF src/Engine/libMinervaEngine.so.p/Scene_layer.cpp.o.d -o src/Engine/libMinervaEngine.so.p/Scene_layer.cpp.o -c ../src/Engine/Scene/layer.cpp",
+    "file": "../src/Engine/Scene/layer.cpp",
+    "output": "src/Engine/libMinervaEngine.so.p/Scene_layer.cpp.o"
+  },
+  {
+    "directory": "/home/linuxxx0id/Projects/Literally/builddir",
+    "command": "c++ -Isrc/Engine/libMinervaEngine.so.p -Isrc/Engine -I../src/Engine -I../include -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O0 -g -fPIC -D_REENTRANT -MD -MQ src/Engine/libMinervaEngine.so.p/Scene_scene.cpp.o -MF src/Engine/libMinervaEngine.so.p/Scene_scene.cpp.o.d -o src/Engine/libMinervaEngine.so.p/Scene_scene.cpp.o -c ../src/Engine/Scene/scene.cpp",
+    "file": "../src/Engine/Scene/scene.cpp",
+    "output": "src/Engine/libMinervaEngine.so.p/Scene_scene.cpp.o"
+  },
+  {
+    "directory": "/home/linuxxx0id/Projects/Literally/builddir",
+    "command": "c++ -Isrc/Engine/libMinervaEngine.so.p -Isrc/Engine -I../src/Engine -I../include -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O0 -g -fPIC -D_REENTRANT -MD -MQ src/Engine/libMinervaEngine.so.p/Object_image.cpp.o -MF src/Engine/libMinervaEngine.so.p/Object_image.cpp.o.d -o src/Engine/libMinervaEngine.so.p/Object_image.cpp.o -c ../src/Engine/Object/image.cpp",
+    "file": "../src/Engine/Object/image.cpp",
+    "output": "src/Engine/libMinervaEngine.so.p/Object_image.cpp.o"
+  },
+  {
+    "directory": "/home/linuxxx0id/Projects/Literally/builddir",
+    "command": "c++ -ILiterally.p -I. -I.. -I../include -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O0 -g -D_REENTRANT -MD -MQ Literally.p/src_main.cpp.o -MF Literally.p/src_main.cpp.o.d -o Literally.p/src_main.cpp.o -c ../src/main.cpp",
     "file": "../src/main.cpp",
     "output": "Literally.p/src_main.cpp.o"
   }
