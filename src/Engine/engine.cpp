@@ -2,6 +2,7 @@
 #include "Engine/Scene/scene.hpp"
 #include "SDL.h"
 #include "SDL_events.h"
+#include "SDL_mouse.h"
 #include "SDL_render.h"
 #include "SDL_video.h"
 
@@ -59,6 +60,11 @@ void Engine::PostScene(Scene *scene) {
 
 void Engine::EventReader() {
     SDL_PollEvent(&event);
+    int x, y;
+    if (event.type == SDL_MOUSEMOTION || event.type == SDL_MOUSEBUTTONDOWN || event.type == SDL_MOUSEBUTTONUP) {
+        SDL_GetMouseState(&x, &y);
+        currentScene->DispatchMouseEvents(x, y, event);
+    }
     if (event.type == SDL_QUIT) {
         isPlaying = false;
     }

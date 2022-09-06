@@ -16,3 +16,7 @@ void Layer::Update() {
         obj->Update();
     }
 }
+
+std::vector<GameObject*> Layer::GetGameObjects(){
+    return gameobjects;
+}
