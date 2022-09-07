@@ -14,6 +14,12 @@ class Engine {
 
     bool isPlaying = true;
 
+    const int TICKS_PER_SECOND = 60;
+    const int SKIP_TICKS = 1000 / TICKS_PER_SECOND;
+    const int MAX_FRAME_SKIP = 5;
+
+    Uint64 next_tick = 0;
+
     public:
         ~Engine();
 
@@ -28,6 +34,6 @@ class Engine {
         int Clear();
 
         void EventReader();
-        void Draw();
+        void Draw(float interpolation);
 
 };

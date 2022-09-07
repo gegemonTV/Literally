@@ -33,16 +33,14 @@ void Scene::SetEngine(Engine *engine){
 }
 
 void Scene::DispatchMouseEvents(int x, int y, SDL_Event event){
-    SDL_Log("current mouse state: x = %d, y = %d, type = %u", x, y, event.type);
     CallObjectInArea(x, y, event);
 }
 
 void Scene::CallObjectInArea(int x, int y, SDL_Event event) {
     for (Layer l : layers) {
         for (auto i : l.GetGameObjects()) {
-            ImageObject *object = dynamic_cast<ImageObject*>(i);
-            if (object->IsInArea(x, y)) {
-                object->CallOnMouseEvent(event);
+            if (i->IsInArea(x, y)) {
+                i->CallOnMouseEvent(event);
             }
         }
     }

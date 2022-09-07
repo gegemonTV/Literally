@@ -1,5 +1,6 @@
 #pragma once
 
+#include "Engine/Object/Listener/MouseClickListener.hpp"
 #include "Engine/Object/gameobject.hpp"
 #include "SDL_events.h"
 #include "SDL_rect.h"
@@ -13,13 +14,6 @@ class ImageObject : public GameObject {
 
     std::string sourcePath = "";
 
-    SDL_Renderer *renderer;
-    SDL_Texture *imageTexture;
-    SDL_Rect rect;
-
-protected:
-    MouseClickListener *mouseClickListener;
-
 public:
     ImageObject(SDL_Renderer *renderer, int x, int y);
     ImageObject(SDL_Renderer *renderer, int x, int y, int w, int h);
@@ -28,12 +22,7 @@ public:
 
     void Draw() override;
     void Update() override;
-    void SetOnMouseClickListener(class MouseClickListener *MouseClickListener);
-
-    void CallOnMouseEvent(SDL_Event event);
-
-    bool IsInArea(int x, int y);
-
+    
 
     ~ImageObject() override = default;
 

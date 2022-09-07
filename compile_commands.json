@@ -103,31 +103,43 @@
   },
   {
     "directory": "/home/linuxxx0id/Projects/Literally/builddir",
-    "command": "c++ -Isrc/Engine/libMinervaEngine.so.p -Isrc/Engine -I../src/Engine -I../include -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O0 -g -fPIC -D_REENTRANT -MD -MQ src/Engine/libMinervaEngine.so.p/engine.cpp.o -MF src/Engine/libMinervaEngine.so.p/engine.cpp.o.d -o src/Engine/libMinervaEngine.so.p/engine.cpp.o -c ../src/Engine/engine.cpp",
+    "command": "cc -Isubprojects/SDL2_ttf-2.0.12/libsdl2_ttf.so.p -Isubprojects/SDL2_ttf-2.0.12 -I../subprojects/SDL2_ttf-2.0.12 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sysprof-4 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC -D_REENTRANT -pthread -MD -MQ subprojects/SDL2_ttf-2.0.12/libsdl2_ttf.so.p/SDL_ttf.c.o -MF subprojects/SDL2_ttf-2.0.12/libsdl2_ttf.so.p/SDL_ttf.c.o.d -o subprojects/SDL2_ttf-2.0.12/libsdl2_ttf.so.p/SDL_ttf.c.o -c ../subprojects/SDL2_ttf-2.0.12/SDL_ttf.c",
+    "file": "../subprojects/SDL2_ttf-2.0.12/SDL_ttf.c",
+    "output": "subprojects/SDL2_ttf-2.0.12/libsdl2_ttf.so.p/SDL_ttf.c.o"
+  },
+  {
+    "directory": "/home/linuxxx0id/Projects/Literally/builddir",
+    "command": "c++ -Isrc/Engine/libMinervaEngine.so.p -Isrc/Engine -I../src/Engine -I../include -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -Isubprojects/SDL2_ttf-2.0.12 -I../subprojects/SDL2_ttf-2.0.12 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O0 -g -fPIC -D_REENTRANT -MD -MQ src/Engine/libMinervaEngine.so.p/engine.cpp.o -MF src/Engine/libMinervaEngine.so.p/engine.cpp.o.d -o src/Engine/libMinervaEngine.so.p/engine.cpp.o -c ../src/Engine/engine.cpp",
     "file": "../src/Engine/engine.cpp",
     "output": "src/Engine/libMinervaEngine.so.p/engine.cpp.o"
   },
   {
     "directory": "/home/linuxxx0id/Projects/Literally/builddir",
-    "command": "c++ -Isrc/Engine/libMinervaEngine.so.p -Isrc/Engine -I../src/Engine -I../include -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O0 -g -fPIC -D_REENTRANT -MD -MQ src/Engine/libMinervaEngine.so.p/Scene_layer.cpp.o -MF src/Engine/libMinervaEngine.so.p/Scene_layer.cpp.o.d -o src/Engine/libMinervaEngine.so.p/Scene_layer.cpp.o -c ../src/Engine/Scene/layer.cpp",
+    "command": "c++ -Isrc/Engine/libMinervaEngine.so.p -Isrc/Engine -I../src/Engine -I../include -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -Isubprojects/SDL2_ttf-2.0.12 -I../subprojects/SDL2_ttf-2.0.12 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O0 -g -fPIC -D_REENTRANT -MD -MQ src/Engine/libMinervaEngine.so.p/Scene_layer.cpp.o -MF src/Engine/libMinervaEngine.so.p/Scene_layer.cpp.o.d -o src/Engine/libMinervaEngine.so.p/Scene_layer.cpp.o -c ../src/Engine/Scene/layer.cpp",
     "file": "../src/Engine/Scene/layer.cpp",
     "output": "src/Engine/libMinervaEngine.so.p/Scene_layer.cpp.o"
   },
   {
     "directory": "/home/linuxxx0id/Projects/Literally/builddir",
-    "command": "c++ -Isrc/Engine/libMinervaEngine.so.p -Isrc/Engine -I../src/Engine -I../include -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O0 -g -fPIC -D_REENTRANT -MD -MQ src/Engine/libMinervaEngine.so.p/Scene_scene.cpp.o -MF src/Engine/libMinervaEngine.so.p/Scene_scene.cpp.o.d -o src/Engine/libMinervaEngine.so.p/Scene_scene.cpp.o -c ../src/Engine/Scene/scene.cpp",
+    "command": "c++ -Isrc/Engine/libMinervaEngine.so.p -Isrc/Engine -I../src/Engine -I../include -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -Isubprojects/SDL2_ttf-2.0.12 -I../subprojects/SDL2_ttf-2.0.12 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O0 -g -fPIC -D_REENTRANT -MD -MQ src/Engine/libMinervaEngine.so.p/Scene_scene.cpp.o -MF src/Engine/libMinervaEngine.so.p/Scene_scene.cpp.o.d -o src/Engine/libMinervaEngine.so.p/Scene_scene.cpp.o -c ../src/Engine/Scene/scene.cpp",
     "file": "../src/Engine/Scene/scene.cpp",
     "output": "src/Engine/libMinervaEngine.so.p/Scene_scene.cpp.o"
   },
   {
     "directory": "/home/linuxxx0id/Projects/Literally/builddir",
-    "command": "c++ -Isrc/Engine/libMinervaEngine.so.p -Isrc/Engine -I../src/Engine -I../include -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O0 -g -fPIC -D_REENTRANT -MD -MQ src/Engine/libMinervaEngine.so.p/Object_image.cpp.o -MF src/Engine/libMinervaEngine.so.p/Object_image.cpp.o.d -o src/Engine/libMinervaEngine.so.p/Object_image.cpp.o -c ../src/Engine/Object/image.cpp",
+    "command": "c++ -Isrc/Engine/libMinervaEngine.so.p -Isrc/Engine -I../src/Engine -I../include -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -Isubprojects/SDL2_ttf-2.0.12 -I../subprojects/SDL2_ttf-2.0.12 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O0 -g -fPIC -D_REENTRANT -MD -MQ src/Engine/libMinervaEngine.so.p/Object_image.cpp.o -MF src/Engine/libMinervaEngine.so.p/Object_image.cpp.o.d -o src/Engine/libMinervaEngine.so.p/Object_image.cpp.o -c ../src/Engine/Object/image.cpp",
     "file": "../src/Engine/Object/image.cpp",
     "output": "src/Engine/libMinervaEngine.so.p/Object_image.cpp.o"
   },
   {
     "directory": "/home/linuxxx0id/Projects/Literally/builddir",
-    "command": "c++ -ILiterally.p -I. -I.. -I../include -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O0 -g -D_REENTRANT -MD -MQ Literally.p/src_main.cpp.o -MF Literally.p/src_main.cpp.o.d -o Literally.p/src_main.cpp.o -c ../src/main.cpp",
+    "command": "c++ -Isrc/Engine/libMinervaEngine.so.p -Isrc/Engine -I../src/Engine -I../include -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -Isubprojects/SDL2_ttf-2.0.12 -I../subprojects/SDL2_ttf-2.0.12 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O0 -g -fPIC -D_REENTRANT -MD -MQ src/Engine/libMinervaEngine.so.p/UI_label.cpp.o -MF src/Engine/libMinervaEngine.so.p/UI_label.cpp.o.d -o src/Engine/libMinervaEngine.so.p/UI_label.cpp.o -c ../src/Engine/UI/label.cpp",
+    "file": "../src/Engine/UI/label.cpp",
+    "output": "src/Engine/libMinervaEngine.so.p/UI_label.cpp.o"
+  },
+  {
+    "directory": "/home/linuxxx0id/Projects/Literally/builddir",
+    "command": "c++ -ILiterally.p -I. -I.. -I../include -Isubprojects/SDL2_image-2.0.5 -I../subprojects/SDL2_image-2.0.5 -Isubprojects/SDL2_ttf-2.0.12 -I../subprojects/SDL2_ttf-2.0.12 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O0 -g -D_REENTRANT -MD -MQ Literally.p/src_main.cpp.o -MF Literally.p/src_main.cpp.o.d -o Literally.p/src_main.cpp.o -c ../src/main.cpp",
     "file": "../src/main.cpp",
     "output": "Literally.p/src_main.cpp.o"
   }
