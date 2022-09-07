@@ -7,7 +7,6 @@
 #include "SDL_rect.h"
 #include "SDL_render.h"
 
-
 Button::Button(SDL_Renderer *renderer, int x, int y) : 
 GameObject(renderer, x, y),
 backgroundImageActive(renderer, x, y),
